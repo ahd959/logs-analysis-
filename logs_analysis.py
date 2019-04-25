@@ -63,7 +63,7 @@ def first_query(query):
 			print("Views:", row[1])
 			print("\n")
 			
-			closeDbConnection(connection)
+		closeDbConnection(connection)
 			 
 	except (Exception, psycopg2.Error) as error:
 		print("Failed to conect to database {}".format(error))
@@ -83,7 +83,7 @@ def second_query(query):
 			print("Views:", row[1])
 			print("\n")
 			
-			closeDbConnection(connection)
+		closeDbConnection(connection)
 			
 	except (Exception, psycopg2.Error) as error:
 		print("Failed to conect to database {}".format(error))
