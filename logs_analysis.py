@@ -20,8 +20,6 @@ def closeDbConnection(connection):
         print("Failed to conect to database {}".format(error))
 
 # What are the most popular 3 articles of all time?
-
-
 SELECT_QUERY_1 = '''
 select title, count(*) as num
 from log, articles
@@ -31,7 +29,6 @@ order by num desc
 limit 3;'''
 
 # Who are the most popular article authors of all time?
-
 SELECT_QUERY_2 = '''
 select name,count(*) as num
 from log, articles, authors
@@ -41,7 +38,6 @@ group by name
 order by num desc;'''
 
 # On which days did more than 1% of requests lead to errors?
-
 SELECT_QUERY_3 = '''
 select * from
         (select day, avg((Error::float) /(Rate::float) * 100) as Error_R
