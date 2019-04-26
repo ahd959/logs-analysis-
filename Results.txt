@@ -1,0 +1,31 @@
+﻿First Question: What are the most popular three articles of all time?
+
+('Article:', 'Candidate is jerk, alleges rival')
+('Views:', 338647L)
+
+('Article:', 'Bears love berries, alleges bear')
+('Views:', 253081L)
+
+('Article:', 'Bad things gone, say good people')
+('Views:', 170098L)
+
+
+Second Question: Who are the most popular article authors of all time?
+
+('Name:', 'Ursula La Multa')
+('Views:', 507594L)
+
+('Name:', 'Rudolf von Treppenwitz')
+('Views:', 423457L)
+
+('Name:', 'Anonymous Contributor')
+('Views:', 170098L)
+
+('Name:', 'Markoff Chaney')
+('Views:', 84557L)
+
+
+Third Question: On which days did more than 1% of requests lead to errors?
+
+('Date:', datetime.date(2016, 7, 17))
+('Error %:', 2.26268624680273)
