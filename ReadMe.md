@@ -32,7 +32,7 @@ These steps will be taken after successful setup:
 -	**\dt**  list all tables
 -	**\d** table_name to llist columns and rows in assigned table
 - **\q** to exit **news** db. 
-- **python3 flie_name.py** to run the project file and printing the results.
+- **python3 flie_name.py** to run the project file and print the results.
 
 ### create Views:
 For question 3 in logs analysis project:
