@@ -3,7 +3,6 @@ import psycopg2
 
 DBASE = "news"
 
-#conn = psycopg2.connect(database=DBASE)
 
 def getDbConnection():
     # code to Get Database connection
