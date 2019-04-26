@@ -38,14 +38,14 @@ For question 3 in logs analysis project:
 **Q_3:On which days did more than 1% of requests lead to errors?**
 ```
 create view Days_Rate as
-	 select time:date as day, count(*) as num 
+	 select time::date as day, count(*) as num 
 	 from log 
 	 group by day;
 	 
 create view Error_Rate as
      select time::date as day, count(*) as num
 	 from log 
-	 where status like '404%'
+	 where status='404 NOT FOUND'
 	 group by day 
 	 order by day;
 	 
