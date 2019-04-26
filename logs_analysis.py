@@ -102,3 +102,4 @@ if __name__ == '__main__':
     first_query(SELECT_QUERY_1)
     second_query(SELECT_QUERY_2)
     third_query(SELECT_QUERY_3)
+
