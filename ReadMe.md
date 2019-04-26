@@ -24,13 +24,15 @@ If the system is working properly, PostgreSQL database server will start inside 
 
 ### Runing the virtual machine
 These steps will be taken after successful setup:
-- cd  /vagrant to change the dircotory to access the main files.
+- **cd  /vagrant** to change the dircotory to access the main files.
 - **Vagrant ssh**
 - In case if **vagrant ssh** not working – **winpty vagrant ssh**
 -	**psql – d news – f newsdata.sql**: connecting with news data base and loading [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) file to the VM.
 -	**\lc or psql –d news** to connect db. 
 -	**\dt**  list all tables
 -	**\d** table_name to llist columns and rows in assigned table
+-       **\q** to exit db. 
+-       **python3 flie_name.py** to run the project file and printing the results.
 
 ### create Views:
 For question 3 in logs analysis project:
