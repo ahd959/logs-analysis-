@@ -3,8 +3,12 @@
 ### By Ahmed Alhawsawi
 ## ReadMe.md 
 
-### introduction
-This project is for those who enrolled in Full-Stack Web Developer Nanodegree program which is provided by Udacity platform. The aim of this project is to improve the skills of the trainees in SQL database server by working with data that have millions of rows. To achieve the project’s goals, there are some requirements to be met and procedures to be followed. 
+### Introduction
+This project is for those who enrolled in Full-Stack Web Developer Nanodegree program which is provided by Udacity platform. The aim of this project is to improve the skills of the trainees in SQL database server by working with data that have millions of rows. To achieve the project’s goals, there are some requirements to be met and procedures to be followed. This project sets up a mock PostgreSQL database for a fictional news website. The provided Python script uses the psycopg2 library to query the database and produce a report that answers the following three questions:
+-  What are the most popular three articles of all time?
+-  Who are the most popular article authors of all time?
+-  On which days did more than 1% of requests lead to errors?
+
 ### Requirements:  
 
 - [Python 3.6.7](www.python.org) – or latest version of Python programming language.
